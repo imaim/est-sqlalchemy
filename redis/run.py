@@ -1,6 +1,6 @@
 from datetime import datetime
 from models.connection.reddis_connection import RedisConnectionHandler
-from models.redis_repository import RedisRepository
+from models.redis.redis_repository import RedisRepository
 from configs.start_form import start_form
 
 """ redis_repository.insert("teste_01", 2024)
